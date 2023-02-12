@@ -1,0 +1,84 @@
+:root{
+  font-size: 10px;
+  --main-color:rgb(85, 85, 85);
+  --seconday-color: #2980b9;
+}
+*{
+  padding: 1rem;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  padding: 2rem;
+  
+  margin: auto;
+
+}
+
+#root{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+
+
+
+
+main{
+  border: 0.2rem solid var(--main-color);
+  border-radius: 1rem;
+  
+}
+.main{
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0;
+  color: var(--main-color);
+}
+
+main>form{
+  margin: 1rem;
+}
+
+h2{
+  font-size: 3rem;
+}
+
+section{
+  margin-bottom: 5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+input{
+  height: 3rem;
+  border: 1px solid var(--main-color);
+  border-radius: 3px;
+  font-size: 1.8rem;
+  padding: 5px;
+}
+
+
+.b-name{
+  color: var(--seconday-color);
+}
+
+.personal-information{
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  border-bottom: 0.1rem solid var(--main-color);
+
+  word-break: break-all;
+}
+.work-info{
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: 3fr 1.5fr;
+  border-bottom: 0.1rem solid var(--main-color);
+  word-break: break-all;
+  padding: 1.5rem;
+}
+
+.fullname{
+  font-size: 3rem;
+}
